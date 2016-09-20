@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81D252601D9121760095577C /* NSDictionary+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D2525F1D9121760095577C /* NSDictionary+NilSafe.m */; };
 		AB8BDA7E1CFC334500DDB5A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8BDA7D1CFC334500DDB5A1 /* main.m */; };
 		AB8BDA811CFC334500DDB5A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8BDA801CFC334500DDB5A1 /* AppDelegate.m */; };
 		AB8BDA841CFC334500DDB5A1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8BDA831CFC334500DDB5A1 /* FirstViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81D2525E1D9121760095577C /* NSDictionary+NilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NilSafe.h"; sourceTree = "<group>"; };
+		81D2525F1D9121760095577C /* NSDictionary+NilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NilSafe.m"; sourceTree = "<group>"; };
 		AB8BDA791CFC334400DDB5A1 /* STTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8BDA7D1CFC334500DDB5A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB8BDA7F1CFC334500DDB5A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				AB8BDA9A1CFC34AC00DDB5A1 /* RootViewController.m */,
 				AB8BDAD01CFC5D8300DDB5A1 /* ViewController.h */,
 				AB8BDAD11CFC5D8300DDB5A1 /* ViewController.m */,
+				81D2525E1D9121760095577C /* NSDictionary+NilSafe.h */,
+				81D2525F1D9121760095577C /* NSDictionary+NilSafe.m */,
 				AB8BDA8B1CFC334500DDB5A1 /* Assets.xcassets */,
 				AB8BDA901CFC334500DDB5A1 /* Info.plist */,
 				AB8BDA7C1CFC334500DDB5A1 /* Supporting Files */,
@@ -275,6 +280,7 @@
 				AB8BDAAB1CFC4A7600DDB5A1 /* STChildViewController.m in Sources */,
 				AB8BDAAE1CFC4E7500DDB5A1 /* STTabBarController.m in Sources */,
 				AB8BDA9F1CFC3E2000DDB5A1 /* STNavBarView.m in Sources */,
+				81D252601D9121760095577C /* NSDictionary+NilSafe.m in Sources */,
 				AB8BDA7E1CFC334500DDB5A1 /* main.m in Sources */,
 				AB8BDA981CFC340F00DDB5A1 /* STNavigationController.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				AB8BDA951CFC334500DDB5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

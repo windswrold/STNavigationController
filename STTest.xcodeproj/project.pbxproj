@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		81D252601D9121760095577C /* NSDictionary+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D2525F1D9121760095577C /* NSDictionary+NilSafe.m */; };
+		81D252671D9129FC0095577C /* AppDelegate+GYBootingProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D252631D9129FC0095577C /* AppDelegate+GYBootingProtection.m */; };
+		81D252681D9129FC0095577C /* GYBootingProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D252651D9129FC0095577C /* GYBootingProtection.m */; };
+		81D252691D9129FC0095577C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 81D252661D9129FC0095577C /* README.md */; };
 		AB8BDA7E1CFC334500DDB5A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8BDA7D1CFC334500DDB5A1 /* main.m */; };
 		AB8BDA811CFC334500DDB5A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8BDA801CFC334500DDB5A1 /* AppDelegate.m */; };
 		AB8BDA841CFC334500DDB5A1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8BDA831CFC334500DDB5A1 /* FirstViewController.m */; };
@@ -40,6 +43,11 @@
 /* Begin PBXFileReference section */
 		81D2525E1D9121760095577C /* NSDictionary+NilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NilSafe.h"; sourceTree = "<group>"; };
 		81D2525F1D9121760095577C /* NSDictionary+NilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NilSafe.m"; sourceTree = "<group>"; };
+		81D252621D9129FC0095577C /* AppDelegate+GYBootingProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+GYBootingProtection.h"; sourceTree = "<group>"; };
+		81D252631D9129FC0095577C /* AppDelegate+GYBootingProtection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+GYBootingProtection.m"; sourceTree = "<group>"; };
+		81D252641D9129FC0095577C /* GYBootingProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYBootingProtection.h; sourceTree = "<group>"; };
+		81D252651D9129FC0095577C /* GYBootingProtection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYBootingProtection.m; sourceTree = "<group>"; };
+		81D252661D9129FC0095577C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AB8BDA791CFC334400DDB5A1 /* STTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8BDA7D1CFC334500DDB5A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB8BDA7F1CFC334500DDB5A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +100,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81D252611D9129FC0095577C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				81D252621D9129FC0095577C /* AppDelegate+GYBootingProtection.h */,
+				81D252631D9129FC0095577C /* AppDelegate+GYBootingProtection.m */,
+				81D252641D9129FC0095577C /* GYBootingProtection.h */,
+				81D252651D9129FC0095577C /* GYBootingProtection.m */,
+				81D252661D9129FC0095577C /* README.md */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		AB8BDA701CFC334400DDB5A1 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +145,7 @@
 				AB8BDAD11CFC5D8300DDB5A1 /* ViewController.m */,
 				81D2525E1D9121760095577C /* NSDictionary+NilSafe.h */,
 				81D2525F1D9121760095577C /* NSDictionary+NilSafe.m */,
+				81D252611D9129FC0095577C /* src */,
 				AB8BDA8B1CFC334500DDB5A1 /* Assets.xcassets */,
 				AB8BDA901CFC334500DDB5A1 /* Info.plist */,
 				AB8BDA7C1CFC334500DDB5A1 /* Supporting Files */,
@@ -272,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D252671D9129FC0095577C /* AppDelegate+GYBootingProtection.m in Sources */,
 				AB8BDA871CFC334500DDB5A1 /* SecondViewController.m in Sources */,
 				AB8BDA811CFC334500DDB5A1 /* AppDelegate.m in Sources */,
 				AB8BDA9B1CFC34AC00DDB5A1 /* RootViewController.m in Sources */,
@@ -281,8 +303,10 @@
 				AB8BDAAE1CFC4E7500DDB5A1 /* STTabBarController.m in Sources */,
 				AB8BDA9F1CFC3E2000DDB5A1 /* STNavBarView.m in Sources */,
 				81D252601D9121760095577C /* NSDictionary+NilSafe.m in Sources */,
+				81D252691D9129FC0095577C /* README.md in Sources */,
 				AB8BDA7E1CFC334500DDB5A1 /* main.m in Sources */,
 				AB8BDA981CFC340F00DDB5A1 /* STNavigationController.m in Sources */,
+				81D252681D9129FC0095577C /* GYBootingProtection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
